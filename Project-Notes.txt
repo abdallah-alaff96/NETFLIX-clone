@@ -5,3 +5,4 @@
 
 - create new project on firebase and apply the CLI link only for the beggining
 
+Note: write "ls" in the command line (terminal) to know if you are in the right git path
