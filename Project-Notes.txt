@@ -1,0 +1,7 @@
+- Create an empty folder
+
+- npx create-react-app netflix-clone
+	which will create the basic starting file (shortcut)
+
+- create new project on firebase and apply the CLI link only for the beggining
+
