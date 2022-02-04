@@ -27,7 +27,9 @@ Additionally, react Axios is very easy to modify and is quite lightweight.
 
 	to run axios: npm i axios
 
-Note: we'll use Axios instead of Postman
+Note: 
+ - we'll use Axios instead of Postman
+ - it used instead of fetch('url') and converting it to json() ==> it make those two line in one line only
 ///////////////////////////////
 - install "ES7 + React/Redux/React-Native snippets" to use them
 * rfce snippet: is to write the basic React Component code (depends on the name of the component file)
