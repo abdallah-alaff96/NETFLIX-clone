@@ -1,3 +1,16 @@
+////////////////////////API-data/////////////////////////////////////
+
+* API Key (v3 auth):
+9f7f9169fbd0fc724b70f674717dd049
+
+*  Example API Request:
+https://api.themoviedb.org/3/movie/550?api_key=9f7f9169fbd0fc724b70f674717dd049
+
+*  API Read Access Token (v4 auth)
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZjdmOTE2OWZiZDBmYzcyNGI3MGY2NzQ3MTdkZDA0OSIsInN1YiI6IjYxZmNlYzlkN2E5N2FiMDBlNDY3NmIyZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2jnu-0b6PHIx00PiEzS4zhO0LDFLgSbDJedx6l3rNSY
+
+//////////////////////////Project-steps///////////////////////////////
+
 - Create an empty folder
 
 - npx create-react-app netflix-clone
@@ -6,3 +19,18 @@
 - create new project on firebase and apply the CLI link only for the beggining
 
 Note: write "ls" in the command line (terminal) to know if you are in the right git path
+
+- Axios: 
+	In ReactJS, Axios is a library that serves to create HTTP requests that are present externally. 
+It is evident from the fact that we may sometimes in React applications need to get data from the external source. ... 
+Additionally, react Axios is very easy to modify and is quite lightweight.
+
+	to run axios: npm i axios
+
+Note: we'll use Axios instead of Postman
+
+
+
+
+
+
