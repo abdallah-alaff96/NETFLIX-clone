@@ -39,7 +39,8 @@ Row.css:
 
 ////
 
-About Scroll:
+CSS: About Scroll:
+
 	.row__posters {
   display: flex;
   overflow-y: hidden;
@@ -52,7 +53,7 @@ About Scroll:
 
 ////
 
-About transform, transition & width/object fit:
+CSS: About transform, transition & width/object fit:
 	.row__poster {
   object-fit: contain;
   width: 100%;
@@ -64,4 +65,22 @@ About transform, transition & width/object fit:
   transform: scale(1.08);
 	}
 
+////
+
+CSS:
+
+	style = {{	backgroundSize: 'cover'}, {backgroundPosition: "center center"}}
+	backgroundSize: 'cover' ==> means use all up the size inside the container 
+	backgroundPosition: "center center" ==> means center the backgroundPosition
+
+///
+
+CSS: rem 
+	width: 45rem;  ==> means 45 root element (which is 16px - the default of font-size pixels)
+
+///
+
+CSS: line-height: 1.3   ==> means :the space between lines
+
+///
 
