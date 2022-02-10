@@ -34,9 +34,34 @@ Note:
 - install "ES7 + React/Redux/React-Native snippets" to use them
 * rfce snippet: is to write the basic React Component code (depends on the name of the component file)
 
+Row.css:
+	object-fit: contain;       is to contain the object within container (with the applied high and width)
 
+////
 
+About Scroll:
+	.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+	}
 
+	.row__posters::-webkit-scrollbar {
+  display: none;
+	}
 
+////
+
+About transform, transition & width/object fit:
+	.row__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  transition: transform 450ms;
+	}
+
+	.row__poster:hover {
+  transform: scale(1.08);
+	}
 
 
