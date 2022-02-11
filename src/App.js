@@ -7,7 +7,7 @@ import Banner from "./Banner";
 function App() {
   const NetflixOriginals = requests.fetchNetflixOriginals;
   return (
-    <div className="App">
+    <div className="app">
       {/* NavBar */}
 
       <Banner fetchUrl={NetflixOriginals} />
