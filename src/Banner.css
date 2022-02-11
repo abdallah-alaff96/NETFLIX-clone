@@ -49,6 +49,7 @@
 }
 
 .banner--fadeBottom {
+  margin-left: -30px;
   height: 7.4rem;
   background-image: linear-gradient(
     180deg,
