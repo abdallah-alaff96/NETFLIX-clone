@@ -31,12 +31,18 @@ function Row({ title, fetchUrl, isLargeRow }) {
   };
 
   const clickHandler = (movie) => {
+    console.log(movie.name);
     if (trailerUrl) {
       setTrailerUrl("");
     } else {
-      movieTrailer(movie?.name || "")
+      movieTrailer(
+        movie?.name ||
+          movie?.original_name ||
+          movie?.title ||
+          movie?.original_title ||
+          ""
+      )
         .then((url) => {
-          console.log(url);
           const urlParams = new URLSearchParams(new URL(url).search);
           setTrailerUrl(urlParams.get("v"));
         })
@@ -53,6 +59,8 @@ function Row({ title, fetchUrl, isLargeRow }) {
       alt={movie.name}
     />
   ));
+
+  console.log(movies);
 
   return (
     <div className="row">

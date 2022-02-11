@@ -38,7 +38,10 @@ function Banner({ fetchUrl }) {
       <div className="banner__contents">
         {/* title */}
         <h1 className="banner__title">
-          {movie?.title || movie?.name || movie?.original_name}
+          {movie?.title ||
+            movie?.name ||
+            movie?.original_name ||
+            movie?.original_title}
         </h1>
 
         {/* div 2 buttons */}
