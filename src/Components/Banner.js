@@ -9,15 +9,15 @@ function Banner({ fetchUrl }) {
 
   useEffect(() => {
     async function fetchData() {
-      const reques = await axios.get(fetchUrl);
+      const request = await axios.get(fetchUrl);
 
       setMovie(
-        reques.data.results[
-          Math.floor(Math.random() * reques.data.results.length - 1)
+        request.data.results[
+          Math.floor(Math.random() * request.data.results.length - 1)
         ]
       );
 
-      return reques;
+      return request;
     }
     fetchData();
   }, []);

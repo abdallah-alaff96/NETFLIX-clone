@@ -3,13 +3,13 @@ import "./App.css";
 import Row from "./Components/Row";
 import requests from "./APIs/requests";
 import Banner from "./Components/Banner";
+import Nav from "./Components/Nav";
 
 function App() {
   const NetflixOriginals = requests.fetchNetflixOriginals;
   return (
     <div className="app">
-      {/* NavBar */}
-
+      <Nav />
       <Banner fetchUrl={NetflixOriginals} />
 
       <Row title="NETFLIX ORIGINALS" fetchUrl={NetflixOriginals} isLargeRow />
