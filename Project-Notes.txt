@@ -133,3 +133,23 @@ CSS: transparency/transparent in the .banner--fadeBottom
 
 ///
 
+CSS: Animation / transition / fading:
+    
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  }
+
+  .nav__blacked {
+  background-color: #000;
+  }
+
+  /// 
+  
+npm installations:
+
+  npm i react-youtube  ==> to popup youtube trailers
+  &
+  npm i movie-trailer
+
+  ///
+
