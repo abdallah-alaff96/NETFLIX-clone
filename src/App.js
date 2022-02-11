@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Row from "./Row";
-import requests from "./requests";
-import Banner from "./Banner";
+import Row from "./Components/Row";
+import requests from "./APIs/requests";
+import Banner from "./Components/Banner";
 
 function App() {
   const NetflixOriginals = requests.fetchNetflixOriginals;
